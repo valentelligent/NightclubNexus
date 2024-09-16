@@ -1,0 +1,105 @@
+Objective:
+Create a mobile and web-based application for nightclub patrons and owners, ensuring a clean, modular architecture that is scalable, easy to maintain, and follows industry best practices for code quality. The app will consist of a mobile interface for patrons and an admin dashboard for nightclub owners. Focus on building a solid foundation that supports real-time features, secure payments, and scalable backend services.
+
+Core Requirements:
+For Patrons (Mobile App):
+
+Registration and sign-in (OAuth support).
+Drink ordering with real-time updates.
+Song requests with tipping via secure payments.
+Event discovery and RSVP features.
+Personalized offers based on user behavior.
+For Owners (Admin Dashboard):
+
+Manage drink specials, events, and promotions.
+Monitor and approve song requests.
+Real-time analytics and customer insights.
+Interaction with patrons via notifications.
+Best Practices and Scalability Considerations:
+Modular Architecture: Implement a modular monolith or microservices approach to divide core functionalities (user authentication, orders, song requests, promotions).
+
+Separation of Concerns: Utilize an MVC architecture for both frontend and backend. Create well-structured and maintainable codebases by separating services, models, and controllers.
+
+Scalability: Ensure the app can scale efficiently with a growing user base by employing cloud-native solutions, such as containerized microservices and event-driven architecture for real-time notifications.
+
+Clean Code: Follow SOLID principles to ensure code is flexible, reusable, and maintainable. Use consistent code formatting and linting tools like ESLint and Prettier to enforce code quality.
+
+Tech Stack:
+1. Mobile App for Patrons (iOS & Android):
+Frontend: React Native for cross-platform development.
+State Management: Redux or Context API for global state management.
+Push Notifications: Firebase Cloud Messaging (FCM).
+Real-Time Features: Socket.IO for real-time updates.
+Payments: Stripe API for secure payments.
+Structure:
+
+Authentication Module: Handles OAuth and secure JWT sessions.
+Order Module: Manages drink orders, cart, checkout, and payments.
+Song Request Module: Integrates with the Spotify API and handles song tipping.
+Event Module: Displays upcoming events with RSVP functionality.
+Notification Module: Uses Firebase for push notifications.
+2. Admin Dashboard (For Owners):
+Frontend: React.js for a responsive, dynamic interface.
+Backend: Node.js with Express for API services.
+Database: PostgreSQL with Prisma ORM for structured data and MongoDB for dynamic data (e.g., real-time requests).
+Real-Time Communication: Socket.IO for live updates.
+Data Visualization: Chart.js or D3.js for admin insights.
+Structure:
+
+Order Management Module: Tracks and updates drink orders.
+Song Request Management Module: Allows DJs to approve/reject requests in real-time.
+Event & Promotion Management Module: Pushes updates and manages events.
+Customer Insights Module: Provides real-time and historical analytics.
+Key Coding Strategies:
+Modular & Maintainable Code:
+
+Organize the codebase by feature (e.g., auth, orders, events, requests) with separate folders for services, models, controllers, and views.
+Implement service classes for business logic, keeping controllers lean and focused on routing and HTTP request handling.
+Real-Time Functionality:
+
+Use Socket.IO for real-time drink order updates, song requests, and notifications.
+Implement an event-driven architecture using tools like Kafka or RabbitMQ to handle background tasks (e.g., push notifications, analytics processing).
+Data Optimization:
+
+Use PostgreSQL for transactional data (e.g., drink orders, events) and MongoDB for fast access to real-time data (e.g., song requests).
+Implement database indexing and caching (with Redis) for frequent queries to improve performance.
+Clean Code Best Practices:
+
+Follow SOLID principles and implement dependency injection where applicable.
+Use ESLint and Prettier for consistent code formatting and linting.
+Write unit tests for critical functions (e.g., payments, order processing) and integration tests for end-to-end functionality using Jest or Cypress.
+Scalability:
+
+Use Docker for containerized deployment, enabling easy scaling and consistent environments across development and production.
+Deploy on AWS (EC2, Lambda) or Google Cloud with Kubernetes for orchestration, ensuring the system can scale horizontally as traffic grows.
+Use load balancers (e.g., AWS Elastic Load Balancer) to handle traffic spikes.
+CI/CD Pipelines:
+
+Set up CI/CD pipelines using GitHub Actions or CircleCI to automate testing, linting, and deployment.
+Ensure smooth deployments with blue-green or canary deployment strategies to avoid downtime.
+Security & Performance Considerations:
+Authentication & Authorization:
+
+Implement OAuth 2.0 for secure third-party login (Google, Facebook, Apple).
+Use JWT tokens for session management with expiration policies.
+Payment Security:
+
+Ensure Stripe integration follows PCI-DSS compliance for handling payments.
+Implement proper encryption (SSL/TLS) for all data transmission.
+API Security:
+
+Protect endpoints with authentication and role-based access control (RBAC) for admin and user roles.
+Use rate-limiting to prevent abuse of public APIs (e.g., song requests).
+Performance Optimization:
+
+Use lazy loading for components and code splitting with React to improve load times.
+Implement caching for frequently accessed data and optimize database queries with proper indexing.
+Deployment:
+Use Docker to containerize services, and deploy to AWS ECS or Google Cloud Run.
+For orchestration, use Kubernetes to automatically scale the app based on usage.
+Implement monitoring tools like Prometheus and Grafana to track performance metrics and auto-scale accordingly.
+Final Deliverables:
+A fully functional mobile app for both iOS and Android.
+A responsive admin dashboard for nightclub owners.
+A robust, modular backend with secure authentication, payments, and real-time features.
+Scalable, containerized deployment on cloud infrastructure (AWS/Google Cloud) with CI/CD pipelines in place.
