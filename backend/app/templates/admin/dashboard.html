@@ -1,0 +1,50 @@
+{% extends "base.html" %}
+
+{% block content %}
+<h1>Admin Dashboard</h1>
+
+<h2>Drink Management</h2>
+<form id="drink-form">
+    <div class="form-group">
+        <label for="name">Drink Name:</label>
+        <input type="text" id="name" name="name" required>
+    </div>
+    <div class="form-group">
+        <label for="price">Price:</label>
+        <input type="number" id="price" name="price" step="0.01" required>
+    </div>
+    <div class="form-group">
+        <label for="description">Description:</label>
+        <input type="text" id="description" name="description">
+    </div>
+    <button type="submit" class="btn">Add Drink</button>
+</form>
+
+<h3>Drink List</h3>
+<ul id="drink-list"></ul>
+
+<h2>Event Management</h2>
+<form id="event-form">
+    <div class="form-group">
+        <label for="event-name">Event Name:</label>
+        <input type="text" id="event-name" name="name" required>
+    </div>
+    <div class="form-group">
+        <label for="event-date">Date:</label>
+        <input type="datetime-local" id="event-date" name="date" required>
+    </div>
+    <div class="form-group">
+        <label for="event-description">Description:</label>
+        <input type="text" id="event-description" name="description">
+    </div>
+    <button type="submit" class="btn">Add Event</button>
+</form>
+
+<h3>Event List</h3>
+<ul id="event-list"></ul>
+
+{% endblock %}
+
+{% block scripts %}
+<script src="{{ url_for('static', filename='js/admin.js') }}"></script>
+{% endblock %}
