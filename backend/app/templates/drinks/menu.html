@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+
+{% block content %}
+<h1>Drink Menu</h1>
+<div class="drink-list">
+    {% for drink in drinks %}
+    <div class="drink-item">
+        <h2>{{ drink.name }}</h2>
+        <p>{{ drink.description }}</p>
+        <p class="price">${{ "%.2f"|format(drink.price) }}</p>
+    </div>
+    {% endfor %}
+</div>
+{% endblock %}

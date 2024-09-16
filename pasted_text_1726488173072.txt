@@ -1,0 +1,70 @@
+9Error while parsing the 'sandbox' attribute: 'allow-downloads-without-user-activation' is an invalid sandbox flag.Understand this error
+framework-ba9a138836b9189d.js:1 Unrecognized feature: 'ambient-light-sensor'.
+_ @ framework-ba9a138836b9189d.js:1Understand this warning
+framework-ba9a138836b9189d.js:1 Unrecognized feature: 'battery'.
+_ @ framework-ba9a138836b9189d.js:1Understand this warning
+framework-ba9a138836b9189d.js:1 Unrecognized feature: 'execution-while-not-rendered'.
+_ @ framework-ba9a138836b9189d.js:1Understand this warning
+framework-ba9a138836b9189d.js:1 Unrecognized feature: 'execution-while-out-of-viewport'.
+_ @ framework-ba9a138836b9189d.js:1Understand this warning
+framework-ba9a138836b9189d.js:1 Unrecognized feature: 'layout-animations'.
+_ @ framework-ba9a138836b9189d.js:1Understand this warning
+framework-ba9a138836b9189d.js:1 Unrecognized feature: 'legacy-image-formats'.
+_ @ framework-ba9a138836b9189d.js:1Understand this warning
+framework-ba9a138836b9189d.js:1 Unrecognized feature: 'navigation-override'.
+_ @ framework-ba9a138836b9189d.js:1Understand this warning
+framework-ba9a138836b9189d.js:1 Unrecognized feature: 'oversized-images'.
+_ @ framework-ba9a138836b9189d.js:1Understand this warning
+framework-ba9a138836b9189d.js:1 Unrecognized feature: 'publickey-credentials'.
+_ @ framework-ba9a138836b9189d.js:1Understand this warning
+framework-ba9a138836b9189d.js:1 Unrecognized feature: 'speaker-selection'.
+_ @ framework-ba9a138836b9189d.js:1Understand this warning
+framework-ba9a138836b9189d.js:1 Unrecognized feature: 'unoptimized-images'.
+_ @ framework-ba9a138836b9189d.js:1Understand this warning
+framework-ba9a138836b9189d.js:1 Unrecognized feature: 'unsized-media'.
+_ @ framework-ba9a138836b9189d.js:1Understand this warning
+framework-ba9a138836b9189d.js:1 Allow attribute will take precedence over 'allowfullscreen'.
+_ @ framework-ba9a138836b9189d.js:1Understand this warning
+framework-ba9a138836b9189d.js:1 Allow attribute will take precedence over 'allowpaymentrequest'.
+_ @ framework-ba9a138836b9189d.js:1Understand this warning
+stallwart.build.js:1 stallwart: failed ping 1
+_app-4f29bcf9dfc7e5dd.js:16 Adding extension: API Request Tester Object
+_app-4f29bcf9dfc7e5dd.js:16 Adding extension: Javascript Commands Object
+_app-4f29bcf9dfc7e5dd.js:16 Command: javascript-root-command has unrecognized contributions: commandbar. Valid contributions are commandbar,filetree-context-menu,sidebar-search,editor-context-menu Object
+(anonymous) @ _app-4f29bcf9dfc7e5dd.js:16Understand this warning
+_app-4f29bcf9dfc7e5dd.js:16 Adding extension: UI Sketcher Object
+_app-4f29bcf9dfc7e5dd.js:16 Adding extension: Perplexity Object
+_app-4f29bcf9dfc7e5dd.js:16 Command: hello has unrecognized contributions: editor-context-menu. Valid contributions are commandbar,filetree-context-menu,sidebar-search,editor-context-menu Object
+(anonymous) @ _app-4f29bcf9dfc7e5dd.js:16Understand this warning
+2_app-4f29bcf9dfc7e5dd.js:16 onClick is deprecated, please use onPress
+(anonymous) @ _app-4f29bcf9dfc7e5dd.js:16Understand this warning
+_app-4f29bcf9dfc7e5dd.js:16 [IDLE] pid2 enabled
+_app-4f29bcf9dfc7e5dd.js:16 Adding extension: AI Playground Object
+_app-4f29bcf9dfc7e5dd.js:16 Adding extension: CSS Shadow Generator Object
+_app-4f29bcf9dfc7e5dd.js:16 Adding extension: Prettier - Code Formatter Object
+_app-4f29bcf9dfc7e5dd.js:16 Adding extension: JSON Editor Object
+_app-4f29bcf9dfc7e5dd.js:16 Adding extension: Google Cloud Auth Object
+_app-4f29bcf9dfc7e5dd.js:16 Adding extension: CSS Gradient Generator Object
+_app-4f29bcf9dfc7e5dd.js:16 Adding extension: API Request Tester Object
+_app-4f29bcf9dfc7e5dd.js:16 Adding extension: Javascript Commands Object
+_app-4f29bcf9dfc7e5dd.js:16 Adding extension: UI Sketcher Object
+_app-4f29bcf9dfc7e5dd.js:16 Adding extension: Perplexity Object
+_app-4f29bcf9dfc7e5dd.js:16 Command: javascript-root-command has unrecognized contributions: commandbar. Valid contributions are commandbar,filetree-context-menu,sidebar-search,editor-context-menu Object
+(anonymous) @ _app-4f29bcf9dfc7e5dd.js:16Understand this warning
+_app-4f29bcf9dfc7e5dd.js:16 Command: hello has unrecognized contributions: editor-context-menu. Valid contributions are commandbar,filetree-context-menu,sidebar-search,editor-context-menu Object
+(anonymous) @ _app-4f29bcf9dfc7e5dd.js:16Understand this warning
+workspace_iframe.html:32 Unrecognized feature: 'ambient-light-sensor'.Understand this warning
+workspace_iframe.html:32 Unrecognized feature: 'battery'.Understand this warning
+workspace_iframe.html:32 Unrecognized feature: 'execution-while-not-rendered'.Understand this warning
+workspace_iframe.html:32 Unrecognized feature: 'execution-while-out-of-viewport'.Understand this warning
+workspace_iframe.html:32 Unrecognized feature: 'layout-animations'.Understand this warning
+workspace_iframe.html:32 Unrecognized feature: 'legacy-image-formats'.Understand this warning
+workspace_iframe.html:32 Unrecognized feature: 'navigation-override'.Understand this warning
+workspace_iframe.html:32 Unrecognized feature: 'oversized-images'.Understand this warning
+workspace_iframe.html:32 Unrecognized feature: 'publickey-credentials'.Understand this warning
+workspace_iframe.html:32 Unrecognized feature: 'speaker-selection'.Understand this warning
+workspace_iframe.html:32 Unrecognized feature: 'unoptimized-images'.Understand this warning
+workspace_iframe.html:32 Unrecognized feature: 'unsized-media'.Understand this warning
+workspace_iframe.html:32 Allow attribute will take precedence over 'allowfullscreen'.Understand this warning
+workspace_iframe.html:32 Allow attribute will take precedence over 'allowpaymentrequest'.Understand this warning
+647Third-party cookie will be blocked in future Chrome versions as part of Privacy Sandbox.Understand this warning

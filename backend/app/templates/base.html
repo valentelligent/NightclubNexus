@@ -3,14 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nightclub App Admin</title>
+    <title>Nightclub App</title>
     <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
 </head>
 <body>
-    <div class="container">
+    <header>
+        <nav>
+            <ul>
+                <li><a href="{{ url_for('main.index') }}">Home</a></li>
+                <li><a href="{{ url_for('drinks.menu') }}">Drink Menu</a></li>
+                <li><a href="{{ url_for('events.list') }}">Events</a></li>
+                <li><a href="{{ url_for('songs.request') }}">Request a Song</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="container">
         {% block content %}{% endblock %}
-    </div>
-    
+    </main>
+    <footer>
+        <p>&copy; 2024 Nightclub App</p>
+    </footer>
     {% block scripts %}{% endblock %}
 </body>
 </html>

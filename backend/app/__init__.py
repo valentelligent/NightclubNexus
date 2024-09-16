@@ -16,10 +16,11 @@ def create_app(config_class=Config):
     jwt.init_app(app)
     socketio.init_app(app)
 
-    from app.routes import auth, drinks, events, songs
-    app.register_blueprint(auth.bp)
-    app.register_blueprint(drinks.bp)
-    app.register_blueprint(events.bp)
-    app.register_blueprint(songs.bp)
+    from app.routes import main, auth, drinks, events, songs
+    app.register_blueprint(main.bp)
+    app.register_blueprint(auth.bp, url_prefix='/auth')
+    app.register_blueprint(drinks.bp, url_prefix='/drinks')
+    app.register_blueprint(events.bp, url_prefix='/events')
+    app.register_blueprint(songs.bp, url_prefix='/songs')
 
     return app
