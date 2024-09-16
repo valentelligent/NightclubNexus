@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{% block title %}Nightclub App{% endblock %}</title>
+    <title>{% block title %}LGBT Cowboy Bar{% endblock %}</title>
     <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
     <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
 </head>
@@ -11,7 +11,7 @@
     <header>
         <div class="container">
             <div id="branding">
-                <h1><span class="highlight">Nightclub</span> App</h1>
+                <h1><span class="highlight">LGBT</span> Cowboy Bar</h1>
             </div>
             <nav>
                 <ul>
@@ -29,13 +29,11 @@
     </main>
 
     <footer>
-        <p>&copy; 2024 Nightclub App</p>
+        <p>&copy; 2024 LGBT Cowboy Bar</p>
     </footer>
 
     <script>
-    // JavaScript for improved interactivity
     document.addEventListener('DOMContentLoaded', (event) => {
-        // Highlight current nav item
         const currentLocation = location.href;
         const menuItems = document.querySelectorAll('nav a');
         const menuLength = menuItems.length;
@@ -45,7 +43,6 @@
             }
         }
 
-        // Smooth scrolling for internal links
         document.querySelectorAll('a[href^="#"]').forEach(anchor => {
             anchor.addEventListener('click', function (e) {
                 e.preventDefault();

@@ -1,27 +1,27 @@
 {% extends "base.html" %}
 
-{% block title %}Welcome to Nightclub App{% endblock %}
+{% block title %}Welcome to LGBT Cowboy Bar{% endblock %}
 
 {% block content %}
 <section id="showcase">
-    <h1>Welcome to the Nightclub App</h1>
-    <p>Explore our drink menu, upcoming events, and request your favorite songs!</p>
+    <h1>Welcome to the LGBT Cowboy Bar</h1>
+    <p>Saddle up for a night of fun, drinks, and country tunes!</p>
 </section>
 
 <section id="boxes" class="options">
     <div class="box">
-        <h3>Drink Menu</h3>
-        <p>Discover our wide selection of drinks and cocktails.</p>
+        <h3>🍺 Drink Menu</h3>
+        <p>Discover our wild west cocktails and rainbow shots.</p>
         <a href="{{ url_for('drinks.menu') }}" class="btn">View Menu</a>
     </div>
     <div class="box">
-        <h3>Upcoming Events</h3>
-        <p>Stay updated with our latest events and parties.</p>
+        <h3>🤠 Upcoming Events</h3>
+        <p>Don't miss our rodeo nights and drag queen shows!</p>
         <a href="{{ url_for('events.list') }}" class="btn">See Events</a>
     </div>
     <div class="box">
-        <h3>Request a Song</h3>
-        <p>Want to hear your favorite tune? Request it here!</p>
+        <h3>🎵 Request a Song</h3>
+        <p>Want to hear your favorite country or pop tune? Request it here!</p>
         <a href="{{ url_for('songs.request') }}" class="btn">Make a Request</a>
     </div>
 </section>
@@ -30,7 +30,6 @@
 {% block scripts %}
 <script>
 document.addEventListener('DOMContentLoaded', (event) => {
-    // Add some animation to the boxes
     const boxes = document.querySelectorAll('.box');
     boxes.forEach((box, index) => {
         box.style.opacity = '0';

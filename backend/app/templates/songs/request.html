@@ -1,7 +1,7 @@
 {% extends "base.html" %}
 
 {% block content %}
-<h1>Request a Song</h1>
+<h1>🎵 Request a Song at LGBT Cowboy Bar</h1>
 <form id="song-request-form">
     <div class="form-group">
         <label for="song_name">Song Name:</label>
@@ -11,7 +11,7 @@
         <label for="artist">Artist:</label>
         <input type="text" id="artist" name="artist" required>
     </div>
-    <button type="submit" class="btn">Submit Request</button>
+    <button type="submit" class="btn">Giddy Up and Submit!</button>
 </form>
 <div id="request-status"></div>
 {% endblock %}
@@ -33,11 +33,11 @@ document.getElementById('song-request-form').addEventListener('submit', function
     })
     .then(response => response.json())
     .then(data => {
-        document.getElementById('request-status').textContent = 'Song request submitted successfully!';
+        document.getElementById('request-status').textContent = 'Yeehaw! Your song request has been submitted successfully!';
         document.getElementById('song-request-form').reset();
     })
     .catch(error => {
-        document.getElementById('request-status').textContent = 'Error submitting song request. Please try again.';
+        document.getElementById('request-status').textContent = 'Oops! There was an error submitting your song request. Please try again.';
     });
 });
 </script>
