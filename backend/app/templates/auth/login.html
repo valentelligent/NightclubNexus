@@ -1,0 +1,29 @@
+{% extends "base.html" %}
+
+{% block content %}
+<h1>Login to LGBT Cowboy Bar</h1>
+<form method="POST" action="{{ url_for('auth.login') }}" onsubmit="return validateForm()">
+    <div class="form-group">
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" required autocomplete="username">
+    </div>
+    <div class="form-group">
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required autocomplete="current-password">
+    </div>
+    <button type="submit" class="btn">Login</button>
+</form>
+<p>Don't have an account? <a href="{{ url_for('auth.register') }}">Register here</a></p>
+
+<script>
+function validateForm() {
+    var username = document.getElementById('username').value;
+    var password = document.getElementById('password').value;
+    if (username == "" || password == "") {
+        alert("Both username and password are required");
+        return false;
+    }
+    return true;
+}
+</script>
+{% endblock %}

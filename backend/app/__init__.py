@@ -3,11 +3,13 @@ from flask_sqlalchemy import SQLAlchemy
 from flask_jwt_extended import JWTManager
 from flask_socketio import SocketIO
 from flask_cors import CORS
+from flask_login import LoginManager
 from config import Config
 
 db = SQLAlchemy()
 jwt = JWTManager()
 socketio = SocketIO()
+login_manager = LoginManager()
 
 def create_app(config_class=Config):
     app = Flask(__name__)
@@ -16,7 +18,14 @@ def create_app(config_class=Config):
     db.init_app(app)
     jwt.init_app(app)
     socketio.init_app(app)
-    CORS(app)  # Enable CORS for all routes
+    login_manager.init_app(app)
+    CORS(app, supports_credentials=True)  # Updated CORS configuration
+
+    from app.models import User
+
+    @login_manager.user_loader
+    def load_user(user_id):
+        return User.query.get(int(user_id))
 
     from app.routes import main, auth, drinks, events, songs
     app.register_blueprint(main.bp)

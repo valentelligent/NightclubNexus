@@ -19,12 +19,25 @@
                     <li><a href="{{ url_for('drinks.menu') }}">Drink Menu</a></li>
                     <li><a href="{{ url_for('events.list') }}">Events</a></li>
                     <li><a href="{{ url_for('songs.request') }}">Request a Song</a></li>
+                    {% if current_user.is_authenticated %}
+                        <li><a href="{{ url_for('auth.logout') }}">Logout</a></li>
+                    {% else %}
+                        <li><a href="{{ url_for('auth.login') }}">Login</a></li>
+                        <li><a href="{{ url_for('auth.register') }}">Register</a></li>
+                    {% endif %}
                 </ul>
             </nav>
         </div>
     </header>
 
     <main class="container">
+        {% with messages = get_flashed_messages(with_categories=true) %}
+            {% if messages %}
+                {% for category, message in messages %}
+                    <div class="flash-message {{ category }}">{{ message }}</div>
+                {% endfor %}
+            {% endif %}
+        {% endwith %}
         {% block content %}{% endblock %}
     </main>
 
@@ -50,6 +63,17 @@
                     behavior: 'smooth'
                 });
             });
+        });
+
+        // Add fade-out effect for flash messages
+        const flashMessages = document.querySelectorAll('.flash-message');
+        flashMessages.forEach(message => {
+            setTimeout(() => {
+                message.style.opacity = '0';
+                setTimeout(() => {
+                    message.remove();
+                }, 500);
+            }, 5000);
         });
     });
     </script>

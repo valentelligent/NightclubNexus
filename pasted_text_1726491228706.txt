@@ -1,0 +1,133 @@
+[LaunchDarkly] LaunchDarkly client initialized
+_app-4f29bcf9dfc7e5dd.js:16 [IDLE] pid2 enabled
+_app-4f29bcf9dfc7e5dd.js:16 Adding extension: AI Playground Object
+_app-4f29bcf9dfc7e5dd.js:16 Adding extension: CSS Shadow Generator Object
+_app-4f29bcf9dfc7e5dd.js:16 Adding extension: Prettier - Code Formatter Object
+_app-4f29bcf9dfc7e5dd.js:16 Adding extension: JSON Editor Object
+_app-4f29bcf9dfc7e5dd.js:16 Adding extension: Google Cloud Auth Object
+_app-4f29bcf9dfc7e5dd.js:16 Adding extension: CSS Gradient Generator Object
+38Error while parsing the 'sandbox' attribute: 'allow-downloads-without-user-activation' is an invalid sandbox flag.Understand this error
+5Unrecognized feature: 'ambient-light-sensor'.Understand this warning
+5Unrecognized feature: 'battery'.Understand this warning
+5Unrecognized feature: 'execution-while-not-rendered'.Understand this warning
+5Unrecognized feature: 'execution-while-out-of-viewport'.Understand this warning
+5Unrecognized feature: 'layout-animations'.Understand this warning
+5Unrecognized feature: 'legacy-image-formats'.Understand this warning
+5Unrecognized feature: 'navigation-override'.Understand this warning
+5Unrecognized feature: 'oversized-images'.Understand this warning
+5Unrecognized feature: 'publickey-credentials'.Understand this warning
+5Unrecognized feature: 'speaker-selection'.Understand this warning
+5Unrecognized feature: 'unoptimized-images'.Understand this warning
+5Unrecognized feature: 'unsized-media'.Understand this warning
+5Allow attribute will take precedence over 'allowfullscreen'.Understand this warning
+5Allow attribute will take precedence over 'allowpaymentrequest'.Understand this warning
+stallwart.build.js:1 stallwart: failed ping 1
+_app-4f29bcf9dfc7e5dd.js:16 Adding extension: API Request Tester Object
+_app-4f29bcf9dfc7e5dd.js:16 Adding extension: Javascript Commands Object
+_app-4f29bcf9dfc7e5dd.js:16 Command: javascript-root-command has unrecognized contributions: commandbar. Valid contributions are commandbar,filetree-context-menu,sidebar-search,editor-context-menu Object
+(anonymous) @ _app-4f29bcf9dfc7e5dd.js:16Understand this warning
+_app-4f29bcf9dfc7e5dd.js:16 Adding extension: UI Sketcher Object
+_app-4f29bcf9dfc7e5dd.js:16 Adding extension: Perplexity Object
+_app-4f29bcf9dfc7e5dd.js:16 Command: hello has unrecognized contributions: editor-context-menu. Valid contributions are commandbar,filetree-context-menu,sidebar-search,editor-context-menu Object
+(anonymous) @ _app-4f29bcf9dfc7e5dd.js:16Understand this warning
+2_app-4f29bcf9dfc7e5dd.js:16 onClick is deprecated, please use onPress
+(anonymous) @ _app-4f29bcf9dfc7e5dd.js:16Understand this warning
+_app-4f29bcf9dfc7e5dd.js:16 [IDLE] pid2 enabled
+_app-4f29bcf9dfc7e5dd.js:16 Adding extension: AI Playground Object
+_app-4f29bcf9dfc7e5dd.js:16 Adding extension: CSS Shadow Generator Object
+_app-4f29bcf9dfc7e5dd.js:16 Adding extension: Prettier - Code Formatter Object
+_app-4f29bcf9dfc7e5dd.js:16 Adding extension: JSON Editor Object
+_app-4f29bcf9dfc7e5dd.js:16 Adding extension: Google Cloud Auth Object
+_app-4f29bcf9dfc7e5dd.js:16 Adding extension: CSS Gradient Generator Object
+_app-4f29bcf9dfc7e5dd.js:16 Adding extension: API Request Tester Object
+_app-4f29bcf9dfc7e5dd.js:16 Adding extension: Javascript Commands Object
+_app-4f29bcf9dfc7e5dd.js:16 Adding extension: UI Sketcher Object
+_app-4f29bcf9dfc7e5dd.js:16 Adding extension: Perplexity Object
+_app-4f29bcf9dfc7e5dd.js:16 Command: javascript-root-command has unrecognized contributions: commandbar. Valid contributions are commandbar,filetree-context-menu,sidebar-search,editor-context-menu Object
+(anonymous) @ _app-4f29bcf9dfc7e5dd.js:16Understand this warning
+_app-4f29bcf9dfc7e5dd.js:16 Command: hello has unrecognized contributions: editor-context-menu. Valid contributions are commandbar,filetree-context-menu,sidebar-search,editor-context-menu Object
+(anonymous) @ _app-4f29bcf9dfc7e5dd.js:16Understand this warning
+_app-4f29bcf9dfc7e5dd.js:16 Attempted to log non-serializable message. See your browser devtools to access the logged object. Object
+(anonymous) @ _app-4f29bcf9dfc7e5dd.js:16Understand this warning
+_app-4f29bcf9dfc7e5dd.js:16 onClick is deprecated, please use onPress
+(anonymous) @ _app-4f29bcf9dfc7e5dd.js:16Understand this warning
+_app-4f29bcf9dfc7e5dd.js:16 The `smooth` scroll behavior is not fully supported with dynamic size.
+(anonymous) @ _app-4f29bcf9dfc7e5dd.js:16Understand this warning
+_app-4f29bcf9dfc7e5dd.js:16 onClick is deprecated, please use onPress
+(anonymous) @ _app-4f29bcf9dfc7e5dd.js:16Understand this warning
+_app-4f29bcf9dfc7e5dd.js:16 The `smooth` scroll behavior is not fully supported with dynamic size.
+(anonymous) @ _app-4f29bcf9dfc7e5dd.js:16Understand this warning
+57d3c748-9d12-465f-867e-43222d2af5f1-00-7v92i6ftlsov.worf.replit.dev/:1 
+        
+        
+       Failed to load resource: the server responded with a status of 500 (Internal Server Error)Understand this error
+57d3c748-9d12-465f-867e-43222d2af5f1-00-7v92i6ftlsov.worf.replit.dev/:1 
+        
+        
+       Failed to load resource: the server responded with a status of 500 (Internal Server Error)Understand this error
+57d3c748-9d12-465f-867e-43222d2af5f1-00-7v92i6ftlsov.worf.replit.dev/:1 
+        
+        
+       Failed to load resource: the server responded with a status of 500 (Internal Server Error)Understand this error
+57d3c748-9d12-465f-867e-43222d2af5f1-00-7v92i6ftlsov.worf.replit.dev/:1 
+        
+        
+       Failed to load resource: the server responded with a status of 500 (Internal Server Error)Understand this error
+57d3c748-9d12-465f-867e-43222d2af5f1-00-7v92i6ftlsov.worf.replit.dev/:1 
+        
+        
+       Failed to load resource: the server responded with a status of 500 (Internal Server Error)Understand this error
+57d3c748-9d12-465f-867e-43222d2af5f1-00-7v92i6ftlsov.worf.replit.dev/:1 
+        
+        
+       Failed to load resource: the server responded with a status of 500 (Internal Server Error)Understand this error
+57d3c748-9d12-465f-867e-43222d2af5f1-00-7v92i6ftlsov.worf.replit.dev/:1 
+        
+        
+       Failed to load resource: the server responded with a status of 500 (Internal Server Error)Understand this error
+57d3c748-9d12-465f-867e-43222d2af5f1-00-7v92i6ftlsov.worf.replit.dev/:1 
+        
+        
+       Failed to load resource: the server responded with a status of 500 (Internal Server Error)Understand this error
+57d3c748-9d12-465f-867e-43222d2af5f1-00-7v92i6ftlsov.worf.replit.dev/:1 
+        
+        
+       Failed to load resource: the server responded with a status of 500 (Internal Server Error)Understand this error
+57d3c748-9d12-465f-867e-43222d2af5f1-00-7v92i6ftlsov.worf.replit.dev/:1 
+        
+        
+       Failed to load resource: the server responded with a status of 500 (Internal Server Error)Understand this error
+57d3c748-9d12-465f-867e-43222d2af5f1-00-7v92i6ftlsov.worf.replit.dev/:1 
+        
+        
+       Failed to load resource: the server responded with a status of 500 (Internal Server Error)Understand this error
+57d3c748-9d12-465f-867e-43222d2af5f1-00-7v92i6ftlsov.worf.replit.dev/:1 
+        
+        
+       Failed to load resource: the server responded with a status of 500 (Internal Server Error)Understand this error
+stallwart.build.js:1 stallwart: failed ping 1
+7WARNING: Too many active WebGL contexts. Oldest context will be lost.Understand this warning
+stallwart.build.js:1 stallwart: failed ping 2
+4_app-4f29bcf9dfc7e5dd.js:16 webglcontextlost event received
+_app-4f29bcf9dfc7e5dd.js:16 webglcontextrestored event received
+(anonymous) @ _app-4f29bcf9dfc7e5dd.js:16Understand this warning
+96WebGL: INVALID_OPERATION: delete: object does not belong to this contextUnderstand this warning
+3_app-4f29bcf9dfc7e5dd.js:16 webglcontextrestored event received
+(anonymous) @ _app-4f29bcf9dfc7e5dd.js:16Understand this warning
+57d3c748-9d12-465f-867e-43222d2af5f1-00-7v92i6ftlsov.worf.replit.dev/:1 
+        
+        
+       Failed to load resource: the server responded with a status of 500 (Internal Server Error)Understand this error
+57d3c748-9d12-465f-867e-43222d2af5f1-00-7v92i6ftlsov.worf.replit.dev/:1 
+        
+        
+       Failed to load resource: the server responded with a status of 500 (Internal Server Error)Understand this error
+57d3c748-9d12-465f-867e-43222d2af5f1-00-7v92i6ftlsov.worf.replit.dev/:1 
+        
+        
+       Failed to load resource: the server responded with a status of 500 (Internal Server Error)Understand this error
+57d3c748-9d12-465f-867e-43222d2af5f1-00-7v92i6ftlsov.worf.replit.dev/:1 
+        
+        
+       Failed to load resource: the server responded with a status of 500 (Internal Server Error)Understand this error
+710Third-party cookie will be blocked in future Chrome versions as part of Privacy Sandbox.
