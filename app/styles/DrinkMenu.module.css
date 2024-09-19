@@ -1,0 +1,34 @@
+.drinkMenu {
+  margin-top: 2rem;
+  padding: 1rem;
+  background-color: #f3f4f6;
+  border-radius: 0.5rem;
+}
+
+.drinkMenu h2 {
+  color: #1f2937;
+  margin-bottom: 1rem;
+}
+
+.drinkList {
+  list-style-type: none;
+  padding: 0;
+}
+
+.drinkItem {
+  margin-bottom: 1rem;
+  padding: 1rem;
+  background-color: white;
+  border-radius: 0.25rem;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.drinkName {
+  color: #4b5563;
+  margin-bottom: 0.5rem;
+}
+
+.drinkDescription {
+  color: #6b7280;
+  font-size: 0.875rem;
+}

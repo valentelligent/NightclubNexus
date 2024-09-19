@@ -3,6 +3,7 @@ import { View, Text, FlatList, StyleSheet, TouchableOpacity } from 'react-native
 
 const DrinkMenu = () => {
   const [drinks, setDrinks] = useState([]);
+  const [error, setError] = useState(null);
 
   useEffect(() => {
     fetchDrinks();
@@ -10,11 +11,20 @@ const DrinkMenu = () => {
 
   const fetchDrinks = async () => {
     try {
-      const response = await fetch('http://localhost:8000/drinks');
+      // Update the API endpoint to a more realistic URL
+      const response = await fetch('https://api.nightclubnexus.com/drinks');
+      
+      // Check if the response is ok before parsing JSON
+      if (!response.ok) {
+        throw new Error(`HTTP error! status: ${response.status}`);
+      }
+      
       const data = await response.json();
       setDrinks(data);
     } catch (error) {
       console.error('Error fetching drinks:', error);
+      // Add error state to show a message to the user
+      setError('Failed to load drinks. Please try again later.');
     }
   };
 
@@ -31,11 +41,15 @@ const DrinkMenu = () => {
   return (
     <View style={styles.container}>
       <Text style={styles.title}>Drink Menu</Text>
-      <FlatList
-        data={drinks}
-        renderItem={renderDrinkItem}
-        keyExtractor={(item) => item.id.toString()}
-      />
+      {error ? (
+        <Text style={styles.errorText}>{error}</Text>
+      ) : (
+        <FlatList
+          data={drinks}
+          renderItem={renderDrinkItem}
+          keyExtractor={(item) => item.id.toString()}
+        />
+      )}
     </View>
   );
 };
@@ -73,6 +87,12 @@ const styles = StyleSheet.create({
   orderButtonText: {
     color: 'white',
     fontWeight: 'bold',
+  },
+  errorText: {
+    color: 'red',
+    fontSize: 16,
+    textAlign: 'center',
+    marginTop: 20,
   },
 });
 
