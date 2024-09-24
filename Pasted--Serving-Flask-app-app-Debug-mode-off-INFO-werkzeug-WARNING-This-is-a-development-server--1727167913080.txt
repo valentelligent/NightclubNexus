@@ -1,0 +1,27 @@
+ * Serving Flask app 'app'
+ * Debug mode: off
+INFO:werkzeug:WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:80
+ * Running on http://172.31.196.53:80
+INFO:werkzeug:Press CTRL+C to quit
+INFO:werkzeug:172.31.196.53 - - [24/Sep/2024 08:49:31] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:172.31.196.53 - - [24/Sep/2024 08:49:31] "GET /static/css/styles.css HTTP/1.1" 304 -
+INFO:werkzeug:172.31.196.53 - - [24/Sep/2024 08:49:34] "GET /songs/request HTTP/1.1" 200 -
+INFO:werkzeug:172.31.196.53 - - [24/Sep/2024 08:49:34] "GET /static/css/styles.css HTTP/1.1" 304 -
+INFO:werkzeug:172.31.196.53 - - [24/Sep/2024 08:49:36] "GET /auth/register HTTP/1.1" 200 -
+INFO:werkzeug:172.31.196.53 - - [24/Sep/2024 08:49:36] "GET /static/css/styles.css HTTP/1.1" 304 -
+INFO:werkzeug:172.31.196.53 - - [24/Sep/2024 08:49:47] "GET /auth/login HTTP/1.1" 200 -
+INFO:werkzeug:172.31.196.53 - - [24/Sep/2024 08:49:48] "GET /static/css/styles.css HTTP/1.1" 304 -
+INFO:werkzeug:172.31.196.53 - - [24/Sep/2024 08:49:52] "POST /auth/login HTTP/1.1" 200 -
+INFO:werkzeug:172.31.196.53 - - [24/Sep/2024 08:49:52] "GET /static/css/styles.css HTTP/1.1" 304 -
+INFO:werkzeug:172.31.196.53 - - [24/Sep/2024 08:50:02] "GET /static/css/styles.css HTTP/1.1" 304 -
+INFO:werkzeug:172.31.196.53 - - [24/Sep/2024 08:51:15] "GET /auth/register HTTP/1.1" 200 -
+INFO:werkzeug:172.31.196.53 - - [24/Sep/2024 08:51:15] "GET /static/css/styles.css HTTP/1.1" 304 -
+ERROR:app.routes.auth:Error during registration: (psycopg2.errors.StringDataRightTruncation) value too long for type character varying(128)
+
+[SQL: INSERT INTO "user" (username, email, password_hash, is_admin) VALUES (%(username)s, %(email)s, %(password_hash)s, %(is_admin)s) RETURNING "user".id]
+[parameters: {'username': 'admin', 'email': 'pvalentinom@icloud.com', 'password_hash': 'scrypt:32768:8:1$NMU4PJukufE46LjF$f541dfc18d930a503e4b84d02766be2fab4488506ca5baeb09e407cd38232fc58953bfd91d57f178b94be238f0bfc3aa17dbc715b9ce364b63dd7a39f1ee5721', 'is_admin': False}]
+(Background on this error at: https://sqlalche.me/e/20/9h9h)
+INFO:werkzeug:172.31.196.53 - - [24/Sep/2024 08:51:33] "POST /auth/register HTTP/1.1" 200 -
+INFO:werkzeug:172.31.196.53 - - [24/Sep/2024 08:51:33] "GET /static/css/styles.css HTTP/1.1" 304 -

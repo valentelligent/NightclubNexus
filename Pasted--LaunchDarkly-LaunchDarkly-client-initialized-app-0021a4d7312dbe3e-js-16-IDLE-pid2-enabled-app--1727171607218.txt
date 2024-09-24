@@ -1,0 +1,135 @@
+[LaunchDarkly] LaunchDarkly client initialized
+_app-0021a4d7312dbe3e.js:16 [IDLE] pid2 enabled
+_app-0021a4d7312dbe3e.js:16 Adding extension: ReplDB Export and Import Object
+_app-0021a4d7312dbe3e.js:16 Adding extension: ZIP Extractor Object
+_app-0021a4d7312dbe3e.js:16 Adding extension: Secrets Generator Object
+10Error while parsing the 'sandbox' attribute: 'allow-downloads-without-user-activation' is an invalid sandbox flag.Understand this error
+framework-5f3999f3ae750b31.js:1 Unrecognized feature: 'ambient-light-sensor'.
+_ @ framework-5f3999f3ae750b31.js:1Understand this warning
+framework-5f3999f3ae750b31.js:1 Unrecognized feature: 'battery'.
+_ @ framework-5f3999f3ae750b31.js:1Understand this warning
+framework-5f3999f3ae750b31.js:1 Unrecognized feature: 'execution-while-not-rendered'.
+_ @ framework-5f3999f3ae750b31.js:1Understand this warning
+framework-5f3999f3ae750b31.js:1 Unrecognized feature: 'execution-while-out-of-viewport'.
+_ @ framework-5f3999f3ae750b31.js:1Understand this warning
+framework-5f3999f3ae750b31.js:1 Unrecognized feature: 'layout-animations'.
+_ @ framework-5f3999f3ae750b31.js:1Understand this warning
+framework-5f3999f3ae750b31.js:1 Unrecognized feature: 'legacy-image-formats'.
+_ @ framework-5f3999f3ae750b31.js:1Understand this warning
+framework-5f3999f3ae750b31.js:1 Unrecognized feature: 'navigation-override'.
+_ @ framework-5f3999f3ae750b31.js:1Understand this warning
+framework-5f3999f3ae750b31.js:1 Unrecognized feature: 'oversized-images'.
+_ @ framework-5f3999f3ae750b31.js:1Understand this warning
+framework-5f3999f3ae750b31.js:1 Unrecognized feature: 'publickey-credentials'.
+_ @ framework-5f3999f3ae750b31.js:1Understand this warning
+framework-5f3999f3ae750b31.js:1 Unrecognized feature: 'speaker-selection'.
+_ @ framework-5f3999f3ae750b31.js:1Understand this warning
+framework-5f3999f3ae750b31.js:1 Unrecognized feature: 'unoptimized-images'.
+_ @ framework-5f3999f3ae750b31.js:1Understand this warning
+framework-5f3999f3ae750b31.js:1 Unrecognized feature: 'unsized-media'.
+_ @ framework-5f3999f3ae750b31.js:1Understand this warning
+framework-5f3999f3ae750b31.js:1 Allow attribute will take precedence over 'allowfullscreen'.
+_ @ framework-5f3999f3ae750b31.js:1Understand this warning
+framework-5f3999f3ae750b31.js:1 Allow attribute will take precedence over 'allowpaymentrequest'.
+_ @ framework-5f3999f3ae750b31.js:1Understand this warning
+_app-0021a4d7312dbe3e.js:16 Adding extension: GPT-Replit - ChatGPT in your Repl. Object
+_app-0021a4d7312dbe3e.js:16 registerCommand: calling registerCommand with a single argument is deprecated. Pass a {commandId, contributions} object as the first command. Object
+(anonymous) @ _app-0021a4d7312dbe3e.js:16Understand this warning
+_app-0021a4d7312dbe3e.js:16 Command Random Secret uses deprecated contributions field Object
+(anonymous) @ _app-0021a4d7312dbe3e.js:16Understand this warning
+stallwart.build.js:1 stallwart: failed ping 1
+stallwart.build.js:1 stallwart: failed ping 2
+29WARNING: Too many active WebGL contexts. Oldest context will be lost.Understand this warning
+stallwart.build.js:1 stallwart: failed ping 3
+15_app-0021a4d7312dbe3e.js:16 webglcontextlost event received
+_app-0021a4d7312dbe3e.js:16 Adding extension: AI Playground Object
+_app-0021a4d7312dbe3e.js:16 Adding extension: CSS Shadow Generator Object
+_app-0021a4d7312dbe3e.js:16 Adding extension: Prettier - Code Formatter Object
+_app-0021a4d7312dbe3e.js:16 Adding extension: JSON Editor Object
+_app-0021a4d7312dbe3e.js:16 Adding extension: Google Cloud Auth Object
+_app-0021a4d7312dbe3e.js:16 Adding extension: CSS Gradient Generator Object
+_app-0021a4d7312dbe3e.js:16 Adding extension: API Request Tester Object
+_app-0021a4d7312dbe3e.js:16 Adding extension: Javascript Commands Object
+_app-0021a4d7312dbe3e.js:16 Adding extension: UI Sketcher Object
+15_app-0021a4d7312dbe3e.js:16 webgl context not restored; firing onContextLoss
+(anonymous) @ _app-0021a4d7312dbe3e.js:16Understand this warning
+_app-0021a4d7312dbe3e.js:16 Command: javascript-root-command has unrecognized contributions: commandbar. Valid contributions are commandbar,filetree-context-menu,sidebar-search,editor-context-menu Object
+(anonymous) @ _app-0021a4d7312dbe3e.js:16Understand this warning
+_app-0021a4d7312dbe3e.js:16 Adding extension: Perplexity Object
+_app-0021a4d7312dbe3e.js:16 Command: hello has unrecognized contributions: editor-context-menu. Valid contributions are commandbar,filetree-context-menu,sidebar-search,editor-context-menu Object
+(anonymous) @ _app-0021a4d7312dbe3e.js:16Understand this warning
+NightclubNexus#app/components/ModernButtons.js:1 Access to fetch at 'https://sp.replit.com/v1/t' from origin 'https://replit.com' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource. If an opaque response serves your needs, set the request's mode to 'no-cors' to fetch the resource with CORS disabled.Understand this error
+t:1 
+        
+        
+       Failed to load resource: net::ERR_FAILEDUnderstand this error
+workspace_iframe.html:32 Unrecognized feature: 'ambient-light-sensor'.Understand this warning
+workspace_iframe.html:32 Unrecognized feature: 'ambient-light-sensor'.Understand this warning
+workspace_iframe.html:32 Unrecognized feature: 'battery'.Understand this warning
+workspace_iframe.html:32 Unrecognized feature: 'battery'.Understand this warning
+workspace_iframe.html:32 Unrecognized feature: 'execution-while-not-rendered'.Understand this warning
+workspace_iframe.html:32 Unrecognized feature: 'execution-while-not-rendered'.Understand this warning
+workspace_iframe.html:32 Unrecognized feature: 'execution-while-out-of-viewport'.Understand this warning
+workspace_iframe.html:32 Unrecognized feature: 'execution-while-out-of-viewport'.Understand this warning
+workspace_iframe.html:32 Unrecognized feature: 'layout-animations'.Understand this warning
+workspace_iframe.html:32 Unrecognized feature: 'layout-animations'.Understand this warning
+workspace_iframe.html:32 Unrecognized feature: 'legacy-image-formats'.Understand this warning
+workspace_iframe.html:32 Unrecognized feature: 'legacy-image-formats'.Understand this warning
+workspace_iframe.html:32 Unrecognized feature: 'navigation-override'.Understand this warning
+workspace_iframe.html:32 Unrecognized feature: 'navigation-override'.Understand this warning
+workspace_iframe.html:32 Unrecognized feature: 'oversized-images'.Understand this warning
+workspace_iframe.html:32 Unrecognized feature: 'oversized-images'.Understand this warning
+workspace_iframe.html:32 Unrecognized feature: 'publickey-credentials'.Understand this warning
+workspace_iframe.html:32 Unrecognized feature: 'publickey-credentials'.Understand this warning
+workspace_iframe.html:32 Unrecognized feature: 'speaker-selection'.Understand this warning
+workspace_iframe.html:32 Unrecognized feature: 'speaker-selection'.Understand this warning
+workspace_iframe.html:32 Unrecognized feature: 'unoptimized-images'.Understand this warning
+workspace_iframe.html:32 Unrecognized feature: 'unoptimized-images'.Understand this warning
+workspace_iframe.html:32 Unrecognized feature: 'unsized-media'.Understand this warning
+workspace_iframe.html:32 Unrecognized feature: 'unsized-media'.Understand this warning
+workspace_iframe.html:32 Allow attribute will take precedence over 'allowfullscreen'.Understand this warning
+workspace_iframe.html:32 Allow attribute will take precedence over 'allowfullscreen'.Understand this warning
+workspace_iframe.html:32 Allow attribute will take precedence over 'allowpaymentrequest'.Understand this warning
+workspace_iframe.html:32 Allow attribute will take precedence over 'allowpaymentrequest'.Understand this warning
+NightclubNexus:1 Access to fetch at 'https://sp.replit.com/v1/t' from origin 'https://replit.com' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource. If an opaque response serves your needs, set the request's mode to 'no-cors' to fetch the resource with CORS disabled.Understand this error
+sp.replit.com/v1/t:1 
+        
+        
+       Failed to load resource: net::ERR_FAILEDUnderstand this error
+NightclubNexus:1 Access to fetch at 'https://sp.replit.com/v1/t' from origin 'https://replit.com' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource. If an opaque response serves your needs, set the request's mode to 'no-cors' to fetch the resource with CORS disabled.Understand this error
+sp.replit.com/v1/t:1 
+        
+        
+       Failed to load resource: net::ERR_FAILEDUnderstand this error
+55Third-party cookie will be blocked in future Chrome versions as part of Privacy Sandbox.Understand this warning
+NightclubNexus:1 Access to fetch at 'https://sp.replit.com/v1/t' from origin 'https://replit.com' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource. If an opaque response serves your needs, set the request's mode to 'no-cors' to fetch the resource with CORS disabled.Understand this error
+sp.replit.com/v1/t:1 
+        
+        
+       Failed to load resource: net::ERR_FAILEDUnderstand this error
+NightclubNexus:1 Access to fetch at 'https://sp.replit.com/v1/m' from origin 'https://replit.com' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource. If an opaque response serves your needs, set the request's mode to 'no-cors' to fetch the resource with CORS disabled.Understand this error
+sp.replit.com/v1/m:1 
+        
+        
+       Failed to load resource: net::ERR_FAILEDUnderstand this error
+_app-0021a4d7312dbe3e.js:16 Error sending segment performance metrics TypeError: Failed to fetch
+    at _app-0021a4d7312dbe3e.js:16:9098
+    at _app-0021a4d7312dbe3e.js:1:2803
+    at o (_app-0021a4d7312dbe3e.js:1:27662)
+    at o (sdk.min.js:sourcemap:1:23752)
+    at t.<anonymous> (sdk.min.js:sourcemap:1:22227)
+    at sdk.min.js:sourcemap:1:33639
+    at Object.next (sdk.min.js:sourcemap:1:33744)
+    at sdk.min.js:sourcemap:1:32660
+    at new Promise (<anonymous>)
+    at u (sdk.min.js:sourcemap:1:32405)
+    at i.449.t.send (sdk.min.js:sourcemap:1:22010)
+    at t.<anonymous> (sdk.min.js:sourcemap:1:21883)
+    at sdk.min.js:sourcemap:1:33639
+    at Object.next (sdk.min.js:sourcemap:1:33744)
+    at sdk.min.js:sourcemap:1:32660
+    at new Promise (<anonymous>)
+    at u (sdk.min.js:sourcemap:1:32405)
+    at t.flush (sdk.min.js:sourcemap:1:21743)
+    at l (sdk.min.js:sourcemap:1:21131)
+    at r (_app-0021a4d7312dbe3e.js:16:2967)
